@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+gunicorn djheroku.wsgi --log-file -
